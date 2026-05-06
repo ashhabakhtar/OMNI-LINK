@@ -1,0 +1,13 @@
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# Workspace
+.gemini/
+.antigravity/
+.vscode/
+
+# Local Dev
+node_modules/
+dist/
+.env
