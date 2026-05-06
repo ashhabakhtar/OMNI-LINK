@@ -53,7 +53,7 @@ To run this project locally:
 ## 📸 Preview
 
 <div align="center">
-  <img src="assets/hero-bg.png" width="800" alt="OMNI-LINK UI Preview">
+  <img src="assets/preview.png" width="800" alt="OMNI-LINK UI Preview">
 </div>
 
 ---
