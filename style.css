@@ -1,7 +1,8 @@
 :root {
     --bg-dark: #020205;
     --bg-panel: rgba(5, 5, 10, 0.8);
-    --accent-cyan: #0088ff; /* Deeper electric blue to match hexagons */
+    --accent-cyan: #0088ff;
+    /* Deeper electric blue to match hexagons */
     --accent-magenta: #ff00ea;
     --text-primary: #e0e0e0;
     --text-muted: #666;
@@ -31,7 +32,7 @@ body {
     left: -10%;
     width: 120%;
     height: 120%;
-    background: url('assets/scifi_bg.png') no-repeat center center;
+    background: url('assets/hero-bg.png') no-repeat center center;
     background-size: cover;
     opacity: 0.6;
     z-index: -1;
@@ -39,17 +40,26 @@ body {
 }
 
 @keyframes bgDrift {
-    0% { transform: scale(1); }
-    100% { transform: scale(1.05); }
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.05);
+    }
 }
 
 /* Typography & Global Styles */
-h2, h3, .logo {
+h2,
+h3,
+.logo {
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 2px;
 }
 
-input, select, button {
+input,
+select,
+button {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: white;
@@ -59,7 +69,8 @@ input, select, button {
     transition: all 0.3s ease;
 }
 
-input:focus, select:focus {
+input:focus,
+select:focus {
     outline: none;
     border-color: var(--accent-cyan);
     box-shadow: 0 0 10px var(--border-glow);
@@ -78,8 +89,17 @@ input:focus, select:focus {
 }
 
 @keyframes bootUp {
-    0% { opacity: 0; transform: translateY(20px) scale(0.98); filter: blur(10px); }
-    100% { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+    0% {
+        opacity: 0;
+        transform: translateY(20px) scale(0.98);
+        filter: blur(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        filter: blur(0);
+    }
 }
 
 .app-header {
@@ -116,9 +136,17 @@ input:focus, select:focus {
 }
 
 @keyframes pulse {
-    0% { opacity: 0.4; }
-    50% { opacity: 1; }
-    100% { opacity: 0.4; }
+    0% {
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.4;
+    }
 }
 
 /* Main Content */
@@ -286,7 +314,8 @@ input:focus, select:focus {
 }
 
 .qr-canvas {
-    background: white; /* Default background for QR if not styled */
+    background: white;
+    /* Default background for QR if not styled */
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 242, 255, 0.2);
@@ -310,9 +339,19 @@ input:focus, select:focus {
 }
 
 @keyframes scan {
-    0% { top: 10%; opacity: 0; }
-    50% { opacity: 1; }
-    100% { top: 90%; opacity: 0; }
+    0% {
+        top: 10%;
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        top: 90%;
+        opacity: 0;
+    }
 }
 
 .meta-info {
