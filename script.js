@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         data: 'https://github.com/ashhab-akhtar',
         image: '',
         dotsOptions: {
-            color: '#00f2ff',
+            color: '#0088ff',
             type: 'square'
         },
         backgroundOptions: {
@@ -15,11 +15,11 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         cornersSquareOptions: {
             type: 'extra-rounded',
-            color: '#00f2ff'
+            color: '#0088ff'
         },
         cornersDotOptions: {
             type: 'dot',
-            color: '#00f2ff'
+            color: '#0088ff'
         },
         imageOptions: {
             crossOrigin: 'anonymous',
