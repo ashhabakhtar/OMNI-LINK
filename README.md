@@ -1,4 +1,4 @@
-# 🌌 OMNI-LINK | Neural QR Generator
+# 🌌 OMNI-LINK | Neural QR Generator pro
 
 <div align="center">
 
